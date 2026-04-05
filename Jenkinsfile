@@ -6,7 +6,7 @@ pipeline {
     parameters {
         string(name: 'REPO_NAME', defaultValue: 'NickolasKemp/infrastructure-lab4')
         string(name: 'REPO_URL', defaultValue: 'https://github.com/NickolasKemp/infrastructure-lab4')
-        string(name: 'BRANCH_NAME', defaultValue: 'dev')
+        string(name: 'BRANCH_NAME', defaultValue: 'main')
     }
     
     stages {
