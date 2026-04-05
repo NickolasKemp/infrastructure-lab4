@@ -31,7 +31,7 @@ pipeline {
                     def output = sh(script: "echo dummy | ./main", returnStdout: true).trim() 
                     def variant = output.split('\n')[0].trim() as Integer 
                     
-                    if (variant == 15) { 
+                    if (variant == 16) { 
                         testCases = [
                             ['input': 'hello', 'expected': 'hElLo'],
                             ['input': '123456', 'expected': '123456'],
